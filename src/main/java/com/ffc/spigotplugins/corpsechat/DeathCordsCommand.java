@@ -15,8 +15,17 @@ public class DeathCordsCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if(!(sender instanceof Player)) {
+            Player player = (Player) sender;
+            if (player.isOp() || player.hasPermission("Cordinates")){
+
+
+            }
+
+
+            }
+
             main.getLogger().info("You have to be a player to get cords");
+            return true;
         }
-        return false;
+
     }
-}
