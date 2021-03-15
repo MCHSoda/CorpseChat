@@ -1,0 +1,6 @@
+name: CorpseChat
+version: @version@
+main: com.ffc.spigotplugins.corpsechat.CorpseChat
+api-version: 1.16
+authors: [ MCHSoda, FloweyTF ]
+description: 3rd plugin. When you die it tells you in chat your death location. at death location theres a head, (mineable) where all your stuff is stored :), 1.16+
